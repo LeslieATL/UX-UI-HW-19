@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Karla:ital,wght@0,200..800;1,200..800&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Oswald:wght@200..700&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+            </style>
+        <meta chartset="UTF-8"/>
+        <meta name="description" content="UX portfolio">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio Leslie</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="media-queries.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    </head>
+    <body>
+        <nav id="desktop-nav">
+            <div class id="logo">
+                Leslie Amata Teta
+            </div>
+            <div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <nav id="hamburger-nav">
+            <div class="logo"> Leslie Amata Teta</div>
+                <div class="hamburger-menu">
+                    <div class="hamburger-icon" onclick="togglemenu()">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+
+                    </div>
+                
+                <div class="menu-links">
+                    
+                    <li><a href="#about"onclick="togglemenu()"> About</a></li>
+                    <li><a href="#work" onclick="togglemenu()"> Work</a></li>
+                    <li><a href="#contact" onclick="togglemenu()"> Contact</a></li>
+                
+
+                </div>
+            </div>
+            
+        </nav>
+
+        <section id="hero">
+            <div class="hero-container">
+        <div class id="illustration_container">
+                <img src="./assets/sketchbook-woman-doing-yoga.png" alt="https://icons8.com">
+            </div>
+                <div class="section__text">
+             <h1 class="title">Leslie is a UX designer.</h1>
+            <p clas="section__text__p1">
+                Leslie is a UX designer based in Montreal who enjoys creating products that help people build relationships. When she is not choosing fonts she can be found lifting weights or shooting Montreal summers on film!</p>
+        <div class="button">
+            <button id="button1">Reach Out</button>
+            
+        </div>
+    </div>
+        </section>
+
+        <section id="projects">
+            <div id="section-project-name" > Projects</div>
+            <div class="the-projects">
+        <div id="project-container">
+            <div class="item-container">
+                <p class="project-title"> CRA web design</p>
+                <img src="./assets/cra small screen.png" alt="project mockup">
+                <div class id="the-dets">How might we help first time users <br> have a smooth user experience?</div>
+
+
+            </div>
+        </div> 
+        <div id="project-container">
+            <div class="item-container">
+                <p class="project-title"> Responsive web design</p>
+                <img src="./assets/aca small screen.png" alt="project mockup">
+                <div class id="the-dets">Optimizing user engagement to help<br>streamline the adoption process</div>
+             </div>
+        </div> 
+        <div id="project-container">
+            <div class="item-container">
+                <p class="project-title"> Mobile App design</p>
+                <img src="./assets/miu screens.png" alt="project mockup" id="miu-img">
+                <div class id="the-dets"><p>Helping users have an immersive <br>listening experience</p></div>
+             </div>
+        </div> 
+        
+</div>
+</section>
+<section id="skills">
+<div class="container">
+    <div class="item" id="item-title">
+        <div id="title">
+            <h1>My Skills</h1><img src="./assets/beam-web-design-program-on-laptop-screen.gif"></div>
+    </div>
+    <div class="item" id="item1">
+        Leslie approaches interface design with <b>user research</b>. Identifying goals, needs and user painpoints is important to be able to deliver accessible products. Research is approached with qualitative methods such as interviews and surveys. As a <b>visual designer</b> she believes in minimalism, modernism and accessibility, with the help of industry practices and heuristics, she delivers <b>Figma prototypes and Framer websites<b></b>.</div>
+</div>
+</section>
+<nav id="desktop-footer">
+    <div class id="footer-phrase">
+        <b>Leslie can be reached for collaboration and kdrama chitchats!</b><br>lesliexamataa@gmail.com
+    </div>
+    <div class="footer-links">
+        <ul class="footer-links">
+            <li><a href="#contra">Contra</a></li>
+            <li><a href="#linkedin">Linkedin</a></li>
+            <li><a href="#resume">Resume</a></li>
+        </ul>
+    </div>
+    </nav>
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    </body>   
+</html>

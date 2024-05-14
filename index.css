@@ -1,0 +1,332 @@
+/* fonts imports */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Karla:ital,wght@0,200..800;1,200..800&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Oswald:wght@200..700&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* General styling */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Karla", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    background-color:#fff;
+}
+.title, h1{
+    font-family: "DM Sans"sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+p {
+    color:black;
+}
+
+/* this is space to help break things better */
+
+section{
+    display: flex;
+    padding: 4vh;
+    height: 10vh;
+
+}
+/* navigation section */
+nav, .nav-links{
+    display: flex;
+    margin-top: 20px;
+}
+#logo{
+    font-family: 'DM Sans' sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+nav{
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    gap:83px;
+    border-bottom:2px solid;
+    border-color:#535353
+}
+
+.nav-links{
+    gap: 40px;
+    list-style: none;
+    font-size: 24px;
+    font-size: large;
+    font-family: "DM Sans" sans-serif;
+}
+a{
+    color:black;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 24px;
+}
+a:hover{
+    color:#535353;
+    
+    
+}
+/* hamburger menu */
+#hamburger-nav{
+    display:none;
+}
+.hamburger-menu{
+    position:relative;
+    display:inline-block;
+}
+.hamburger-icon{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    height:30px;
+    width:30px;
+    cursor:pointer;
+}
+.hamburger-icon span{
+    width:100%;
+    height:3px;
+    background-color: #000;
+    transition: all 0.3 ease-in-out;
+}
+.menu-links{
+    position:absolute;
+    top:100%;
+    right:0;
+    width:fit-content;
+    background-color: #FFF;
+    max-height:0;
+    overflow: hidden;
+    transition: all 0.3 ease-in-out;
+
+}
+
+/* profile */
+
+#hero{
+    display:flex;
+    margin: 0 10rem;
+    justify-content: center;
+    gap: 160px;
+    height: 80vh;
+}
+.hero-container{
+    display:flex;
+    gap:160px;
+    padding:60px 0;
+}
+
+#illustration_container{
+    display: flex;
+    height: 360px;
+    width:200px;
+    padding: 60px 0;
+   
+
+}
+.section__text{
+    display:flex;
+    flex-direction: column;
+    align-self: left;
+    margin-top: 120px;
+    gap:16px;
+}
+.section__text h1{
+    font-weight: 600;
+    text-align: left;
+    font-family: "DM Sans" sans-serif;
+    font-style: normal;
+    font-weight: 600;
+}
+.section__text p1{
+    text-align: left;
+    margin-top: auto 0;
+    font-size: 24px;
+    font-family: "Karla" ;
+}
+.section_text_p1{
+    font-size: 64px;
+}
+.title{
+    font-size: 64px;
+}
+
+/* buttons */
+#button1{
+display: flex;
+width: 394px;
+padding: 14px 142px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 3px;
+border: 3px solid #000;
+background: #BFE7FD;;
+box-shadow: -7px 5px 0px 0px #001524;
+color:black;
+font-family: "karla";
+font-size: 20px;
+font-weight:bold;
+
+}
+#button1:hover{
+    background-color:#65b4df;
+}
+/* project section */
+/* I used CSS flex for my layout */
+#projects{
+gap:30px;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+height: fit-content;
+margin-bottom: 60px;
+
+}
+
+.the-projects{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+width: 1170px;
+gap: 90px;
+height: fit-content;
+}
+#section-project-name{
+    font-size: 32px;
+}
+
+#project-container {
+display: flex;
+padding: 36px 30px;
+justify-content: center;
+gap: 32px;
+border-radius: 7px;
+border: 3px solid #000;
+background: #FFF;
+box-shadow: -18px 14px 0px 0px #001524;
+border-radius: 7px;
+border: 3px solid #000;
+background: #FFF;
+box-shadow: -18px 14px 0px 0px #001524;
+}
+#project-container:hover{
+box-shadow: -20px 16px 0px 0px;
+transform: translate(10px, -5px);
+}
+.item-container{
+    gap:32px;
+}
+
+
+.image-container{
+    width:468px;
+    height:260px;
+}
+.project-details{
+   padding:20px;
+}
+.project-details-2{
+    padding:30px;
+}
+
+.project-title{
+    font-size: 24px;
+    font-weight: bolder;
+}
+#miu-img{
+    padding:20px;
+}
+#section-project-name{
+    border-bottom: 1px solid;
+    font-weight: bolder;
+    width:1400px;
+    padding:20px;
+    display:flex;
+    justify-content: center;
+    color:#001524;
+}
+/* The footer */
+
+#desktop-footer{
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    border-top: 2px solid;
+    padding-top:44px;
+    padding-bottom: 14px;
+
+
+}
+.footer-links{
+    display:flex;
+    list-style: none;
+    align-items: center;
+    gap:40px;
+    font-weight: 300;
+    font-size: 24px;
+    font-family: 'Karla';
+}
+/* skill section */
+
+
+#skill-section{
+    display:grid;
+    padding-top:160px;
+    padding-bottom: 10px;
+    margin: 0 10rem;
+}
+.skill-cnt{
+    display:grid;
+    grid-template-columns: 180px;
+}
+
+/* skill section {grid} */
+
+.container{
+    display:grid;
+    column-gap: 50px;
+    grid-template-columns: 1fr 3fr ;
+    font-family: 'DM Sans';
+    font-size: larger;
+    padding-top: 4vh;
+    padding-left: 4vh;
+    align-items: center;
+    border-top: 2px solid;
+
+}
+#skills{
+    display: flex;
+    height: fit-content;
+    justify-content: center;
+}
+#item1{
+    align-items: center;
+}
+/* animations */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.button button {
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.shake {
+    animation: shake 0.5s ease-in-out infinite; 
+
+    
+}
+
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+}
