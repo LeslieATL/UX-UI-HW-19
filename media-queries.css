@@ -24,7 +24,7 @@
     }
     
 }
-@media screen and (max-width:900px){
+@media (max-width:600px){
     #hamburger-nav{
         display:flex;
         justify-content: space-around;
@@ -48,7 +48,7 @@
     }
 
 }
-@media screen and (max-width:700px){
+@media (max-width:700px){
     #hamburger-nav{
         display:flex;
     }
@@ -108,9 +108,16 @@
         justify-content: center;
 
     }
-    #project-container{
-        width:300px;
-    }
 
 }
 
+@media (mi-width:496px) and (max-width:768px){
+   .section__text{
+    display: flex;
+    flex-wrap: wrap;
+   } 
+   #button1{
+    display:flex;
+    width:fit-content;
+   }
+}

@@ -11,6 +11,8 @@
         <link rel="stylesheet" href="index.css">
         <link rel="stylesheet" href="media-queries.css">
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
     </head>
     <body>
         <nav id="desktop-nav">
@@ -48,12 +50,12 @@
         </nav>
 
         <section id="hero">
-            <div class="hero-container">
+            <div class="hero-container" class="container-fluid">
         <div class id="illustration_container">
                 <img src="./assets/sketchbook-woman-doing-yoga.png" alt="https://icons8.com">
             </div>
                 <div class="section__text">
-             <h1 class="title">Leslie is a UX designer.</h1>
+             <h1>Leslie is a UX designer.</h1>
             <p clas="section__text__p1">
                 Leslie is a UX designer based in Montreal who enjoys creating products that help people build relationships. When she is not choosing fonts she can be found lifting weights or shooting Montreal summers on film!</p>
         <div class="button">
@@ -63,35 +65,51 @@
     </div>
         </section>
 
-        <section id="projects">
-            <div id="section-project-name" > Projects</div>
-            <div class="the-projects">
-        <div id="project-container">
-            <div class="item-container">
-                <p class="project-title"> CRA web design</p>
-                <img src="./assets/cra small screen.png" alt="project mockup">
-                <div class id="the-dets">How might we help first time users <br> have a smooth user experience?</div>
+        <section id="projects-2">
+            <div class="card mb-3" style="width:28rem;">
+                <div class="row g-0">
+                  <div class="col-sm-4">
+                    <img src="./assets/cra small screen.png" class="img-fluid rounded-start" alt="mockup">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">CRA web design</h5>
+                      <p class="card-text">How might we help first time CRA users have a delightful experience?</p>
+                      <button class="button"><small class="text-body-secondary">Read More</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <div class="card mb-3" style="width:28rem;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="./assets/aca small screen.png" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">ACA web design</h5>
+                      <p class="card-text">Exploring UX/UI strategies to help optimize user engagement.</p>
+                      <button class="button"><small class="text-body-secondary">Read More</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <div class="card mb-3" style="width:28rem;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="./assets/Mockup logit.png" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Hackathon</h5>
+                      <p class="card-text">How might we help hydroponic farmers with managing their farms?</p>
+                      <a href="https://leslieatl.github.io/UX-UI-HW-20/#introduction"><button class="button"><small class="text-body-secondary">Read More</small></p></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
 
-
-            </div>
-        </div> 
-        <div id="project-container">
-            <div class="item-container">
-                <p class="project-title"> Responsive web design</p>
-                <img src="./assets/aca small screen.png" alt="project mockup">
-                <div class id="the-dets">Optimizing user engagement to help<br>streamline the adoption process</div>
-             </div>
-        </div> 
-        <div id="project-container">
-            <div class="item-container">
-                <p class="project-title"> Mobile App design</p>
-                <img src="./assets/miu screens.png" alt="project mockup" id="miu-img">
-                <div class id="the-dets"><p>Helping users have an immersive <br>listening experience</p></div>
-             </div>
-        </div> 
-        
-</div>
-</section>
 <section id="skills">
 <div class="container">
     <div class="item" id="item-title">
